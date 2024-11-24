@@ -1,0 +1,116 @@
+.task {
+    width: 740px;
+    height: 54px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-content {
+    display: flex;
+    align-items: center;
+    gap: 172px;
+}
+
+.task-text_box {
+    display: flex;
+    width: 440px;
+    height: 54px;
+    color: #9F9F9F;
+    background-color: black;
+    padding: 16px;
+    font-size: 16px;
+    line-height: 22.4px;
+    border: 1px solid white;
+    border-radius: 12px;
+}
+
+.task-text {
+    margin-right: 10px;
+}
+
+.mini-btn_box {
+    display: flex;
+    gap: 20px;
+}
+
+.edit-btn, .delete-btn {
+
+}
+
+.mini-btn {
+    width: 54px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.mini-btn:hover {
+    background-color: #DB00FF;
+    color: white;
+}
+
+.mini-btn:active {
+    background-color: #DB00FF;
+    color: white;
+    box-shadow: 0 4px 8px rgba(43, 0, 50, 0.85);
+    filter: blur(2px);
+}
+
+.task-btn_box {
+    display: flex;
+    gap: 10px;
+}
+
+.edit-task {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+
+.edit-input {
+    display: flex;
+    width: 440px;
+    height: 54px;
+    color: #9F9F9F;
+    background-color: black;
+    padding: 16px;
+    font-size: 16px;
+    line-height: 22.4px;
+    border: 1px solid white;
+    border-radius: 12px;
+}
+
+.edit-main-btn {
+    /*padding: 5px 10px;*/
+    /*font-size: 14px;*/
+    /*border: 1px solid #ccc;*/
+    /*border-radius: 4px;*/
+    /*cursor: pointer;*/
+    width: 100px;
+    height: 54px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #DB00FF;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.edit-main-btn:hover {
+    background-color: #DB00FF;
+    color: white;
+}
+
+.edit-main-btn:active {
+    background-color: #DB00FF;
+    color: white;
+    box-shadow: 0 4px 8px rgba(43, 0, 50, 0.85);
+    filter: blur(2px);
+}

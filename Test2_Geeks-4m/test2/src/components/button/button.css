@@ -1,0 +1,40 @@
+.task-button {
+    width: 100px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    border: 1px solid #DB00FF;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.task-button.disabled {
+    width: 210px;
+    height: 54px;
+    background-color: #ccc;
+    color: #fff;
+    cursor: not-allowed;
+}
+
+.task-button.default:hover {
+    background-color: #DB00FF;
+    color: white;
+}
+
+.task-button.default:active {
+    background-color: #DB00FF;
+    color: white;
+    box-shadow: 0 4px 8px rgba(43, 0, 50, 0.85);
+    filter: blur(2px);
+
+}
+
+.task-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    color: #9E9E9E;
+    border: 1px solid #9E9E9E;
+}
